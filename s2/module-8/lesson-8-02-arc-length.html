@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 8.02 Arc Length</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">GEOMETRY</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 8</div>
+        <div style="font-size: 13px; color: #666;">Geometric Measurement</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">8.02</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Geometric Measurement</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">8.02</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Arc Length</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="0" data-end="7">Arc</strong>: A curved portion of a circle’s circumference between two points on the circle.</p>
+<p><strong data-start="90" data-end="104">Arc Length</strong>: The measure of the distance along an arc, found using a portion of the circle’s circumference.</p>
+<p><strong data-start="203" data-end="213">Center</strong>: The point in a circle that is equidistant from all points on the circle.</p>
+<p><strong data-start="290" data-end="307">Central Angle</strong>: An angle whose vertex is at the center of a circle and whose sides extend to the circumference.</p>
+<p><strong data-start="407" data-end="416">Chord</strong>: A line segment with both endpoints on the circle but does not necessarily pass through the center.</p>
+<p><strong data-start="519" data-end="529">Circle</strong>: A set of all points in a plane that are equidistant from a given point called the center.</p>
+<p><strong data-start="623" data-end="640">Circumference</strong>: The total distance around a circle, found using the formula \(C=2\pi r\).</p>
+<p><strong data-start="720" data-end="730">Degree</strong>: A unit of measurement for angles, where a full circle measures \(360^\circ\).</p>
+<p><strong data-start="810" data-end="829">Intercepted Arc</strong>: The arc that lies between the two sides of an angle, often measured by the angle's degree.</p>
+<p><strong data-start="924" data-end="937">Major Arc</strong>: An arc that measures more than \(180^\circ\).</p>
+<p><strong data-start="985" data-end="998">Minor Arc</strong>: An arc that measures less than \(180^\circ\).</p>
+<p><strong data-start="1046" data-end="1062">Pi (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">π</span></span></span></span>)</strong>: A mathematical constant approximately equal to 3.14159, representing the ratio of a circle’s circumference to its diameter.</p>
+<p><strong data-start="1190" data-end="1204">Proportion</strong>: A mathematical statement that two ratios are equal, often used to solve for missing values.</p>
+<p><strong data-start="1300" data-end="1310">Radius</strong>: A line segment from the center of a circle to any point on the circle’s circumference.</p>
+<p><strong data-start="1401" data-end="1411">Sector</strong>: A region of a circle enclosed by two radii and an arc.</p>
+<p><strong data-start="1470" data-end="1493">Segment of a Circle</strong>: The region of a circle bounded by a chord and the arc between the chord’s endpoints.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore what arc length is and how to calculate it. Arc length is the measure of a portion of a circle’s circumference. This concept is useful in many real-world applications, such as designing curved roads, measuring portions of circular tracks, and determining the length of an arch in construction. We will learn how to calculate arc length when given a radius and central angle, as well as how to find the radius or angle measure if the arc length is known. By the end of this lesson, you will be able to apply the arc length formula, solve mathematical and real-world problems, and understand the relationships between angles, radii, and circles.</p>
+<h4 data-start="2367" data-end="2395"><span style="color: #843fa1;"><strong data-start="2371" data-end="2393"><br>Finding Arc Length</strong></span></h4>
+<p data-start="2396" data-end="2566">Arc length is a fraction of the total circumference of a circle. The formula for finding arc length will use the central angle given in degrees or radians.</p>
+<p data-start="2396" data-end="2566">\(L=\frac{\theta}{360^\circ}\cdot 2\pi r\)</p>
+<p data-start="2396" data-end="2566">where:</p>
+<ul>
+<li data-start="2396" data-end="2566">\(L\) is the arc length,</li>
+<li data-start="2396" data-end="2566">\(\theta\) is the central angle in degrees,</li>
+<li data-start="2396" data-end="2566">\(r\) is the radius of the circle</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 1</span></h4>
+<p>In \(\odot A\), \(m\angle BAC=106^\circ\) and the length of the radius is 4.</p>
+<p>Find the length of \(\overset{\frown}{BC}\).</p>
+<p><img id="604591" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M08L02IMGArcLength.png" alt="MAT10M08L02IMGArcLength.png" width="326" height="317" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/604591" data-api-returntype="File" loading="lazy"></p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To find the length of \(\overset{\frown}{BC}\), we will use the arc length formula \(L=\frac{\theta}{360^\circ}\cdot 2\pi r\).</li>
+<li>We are given the measure of the central angle, \(\angle BAC\).&nbsp; Thus, \(\theta=106\).</li>
+<li>We are given the length of the radius. Thus, \(r=4\).</li>
+<li>\(L=\frac{106}{360}\cdot 2\pi (4) \implies L=\frac{106}{360}(8\pi) \implies L=\frac{8\pi \cdot 106}{360} \implies L=\frac{848\pi}{360}\)</li>
+<li>We can reduce our fraction \(\frac{848}{360}\) to be \(\frac{106}{45}\).</li>
+<li>Therefore, the EXACT answer for the length of \(\overset{\frown}{BC}\) is \(L=\frac{106\pi}{45}\).</li>
+<li>If asked to approximate, we would multiple 106 by \(\pi\), then divide by 45. Thus \(L\approx 7.4002\).</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 2</span></h4>
+<p>In \(\odot A\), \(m\angle BAC=70^\circ\) and the length of \(\overset{\frown}{BC}\) is \(\frac{35\pi}{18}\).</p>
+<p>Find the length of the radius.</p>
+<p><img id="604593" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M08L02IMGFindRadius.png" alt="MAT10M08L02IMGFindRadius.png" width="339" height="334" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/604593" data-api-returntype="File" loading="lazy"></p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To find the length of the radius, we will use the arc length formula \(L=\frac{\theta}{360^\circ}\cdot 2\pi r\).</li>
+<li>We substitute in the values we know and solve for the one we do not know.</li>
+<li>\(\frac{35\pi}{18}=\frac{70}{360}\cdot 2\pi r\)<br>\(\frac{35\pi}{18}=\frac{7\cdot 2\pi}{36}r\)<br>\(\frac{35\pi}{18}=\frac{14\pi}{36}r\) - we will use the reciprocal of the fraction \(\frac{14\pi}{36}\) to multiply to the other side to isolate \(r\).<br>\(\frac{36}{14\pi}\cdot \frac{35\pi}{18} = r\)</li>
+<li>Now, we can cancel out the \(\pi\) that is the numerator of one fraction with the one in the denominator of the other fraction. Then you can multiply and reduce or reduce then multiply.</li>
+<li>\(r=\frac{1260}{252} \implies r=5\)</li>
+<li>We find that the length of the radius is 5 units.</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 3</span></h4>
+<p>In \(\odot A\), the length of the radius is 6.5 units, and the length of \(\overset{\frown}{BC}\) is \(\approx 15.882\).</p>
+<p>Find the approximate measure of \(\angle BAC\) rounded to the nearest whole degree.</p>
+<p><img id="604597" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M08L02IMGFindAngle.png" alt="MAT10M08L02IMGFindAngle.png" width="343" height="353" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/604597" data-api-returntype="File" loading="lazy"></p>
+<p>Solution:</p>
+<ul>
+<li>To find the approximate measure of \(\angle BAC\), we will substitute the values we know into the arc length formula.</li>
+<li>\(15.882=\frac{\theta}{360}\cdot 2\pi (6.5)\)<br>\(15.882=\frac{\theta}{360}(13\pi)\)<br>\(15.882\div 13\pi =\frac{\theta}{360}\)<br>\(360\cdot (15.882\div 13\pi)=\frac{\theta}{360}\cdot 360\)</li>
+<li>At this point, you will want to use your calculator. Be sure to type in the whole part on the left in at once and not in pieces so that the answer is only rounded once!</li>
+<li><img src="https://optimaondemand.github.io/hs-geometry-honors/media/image-1b3db52b-5772-4389-91fd-4ffa633ac48b.png" alt="image.png" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/604620" data-api-returntype="File" loading="lazy"></li>
+<li>We find the approximate measure of \(\angle BAC\) is \(140^\circ\).</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 4</span></h4>
+<p>A circular track has a radius of <strong data-start="3873" data-end="3886">25 meters</strong>. A runner covers <strong data-start="3904" data-end="3917">40 meters</strong> along the curved path.</p>
+<p>What is the approximate measure of the central angle? Round your answer to the nearest tenth of a degree.</p>
+<p>Solution:</p>
+<ul>
+<li>To find the approximate measure of the central angle, we will substitute the values we know into the arc length formula.</li>
+<li>The distance the runner covered on the path is the arc length, 40, and the radius is 25.</li>
+<li>\(40=\frac{\theta}{360}\cdot 2\pi (25)\)<br>\(40=\frac{\theta}{360}(50\pi)\)<br>\(40\div 50\pi =\frac{\theta}{360}\)<br>\(360\cdot (40\div 50\pi)=\frac{\theta}{360}\cdot 360\)<br>\(\theta = 360(40\div 50\pi)\)</li>
+<li>At this point, you will want to use your calculator. Be sure to type in the whole part on the left in at once and not in pieces so that the answer is only rounded once!</li>
+<li><img src="https://optimaondemand.github.io/hs-geometry-honors/media/image-9697ea25-0692-4a89-8055-0640a126b45b.png" alt="image.png" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/604628" data-api-returntype="File" loading="lazy"></li>
+<li>We find the measure of the central angle of the circular track covered is \(91.7^\circ\).</li>
+</ul>
+<h4 data-start="5295" data-end="5315"><strong data-start="5299" data-end="5313"><br><br>Conclusion</strong></h4>
+<p data-start="5316" data-end="5836" data-is-last-node="" data-is-only-node="">Arc length is a fundamental concept in geometry and real-world applications such as road construction, amusement park rides, and architectural design. By understanding how to calculate arc length, as well as how to find the radius or central angle when arc length is known, we can solve a variety of problems involving circular motion and design. Whether planning a highway curve or determining how far a Ferris wheel seat moves, applying the arc length formula helps us make precise calculations and informed decisions.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What is the relationship between arc length, circumference, and central angle?</p>
+<p>2. How can proportions be used to find the arc length of a circle?</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. What real-world applications require arc length calculations?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">4. How do degrees and radians affect the calculation of arc length?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">5. Why is it important to understand arc length in geometric and practical situations?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; GEOMETRY &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">8.02 &middot; Arc Length</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

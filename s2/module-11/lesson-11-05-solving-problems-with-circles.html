@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 11.05 Solving Problems with Circles</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">GEOMETRY</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 11</div>
+        <div style="font-size: 13px; color: #666;">Advanced Geometric Applications</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">11.05</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Advanced Geometric Applications</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">11.05</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Solving Problems with Circles</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="32" data-end="42">Center</strong>: The fixed point in a circle from which all points on the circle are equidistant.</p>
+<p><strong data-start="127" data-end="137">Circle</strong>: The set of all points in a plane that are a fixed distance (radius) from a given point called the center.</p>
+<p><strong data-start="247" data-end="264">Circumference</strong>: The distance around a circle; the perimeter of the circle.</p>
+<p><strong data-start="327" data-end="347">Coordinate Plane</strong>: A flat surface formed by a horizontal number line (x-axis) and a vertical number line (y-axis) that intersect at the origin.</p>
+<p><strong data-start="476" data-end="496">Distance Formula</strong>: A formula used to find the distance between two points in the coordinate plane \(d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\).</p>
+<p><strong data-start="629" data-end="639">Domain</strong>: The set of all possible x-values that a graph or relation can have.</p>
+<p><strong data-start="711" data-end="723">Equation</strong>: A mathematical statement that shows two expressions are equal.</p>
+<p><strong data-start="790" data-end="799">Graph</strong>: A visual representation of an equation or data on the coordinate plane.</p>
+<p><strong data-start="875" data-end="891">Intersection</strong>: The point(s) where two or more graphs or objects meet or cross each other.</p>
+<p><strong data-start="970" data-end="979">Model</strong>: A mathematical representation of a real-world situation using equations, graphs, or diagrams.</p>
+<p><strong data-start="1077" data-end="1087">Origin</strong>: The point (0, 0) on the coordinate plane where the x-axis and y-axis intersect.</p>
+<p><strong data-start="1171" data-end="1180">Point</strong>: A location in the plane identified by an ordered pair of x- and y-coordinates.</p>
+<p><strong data-start="1263" data-end="1273">Radius</strong>: The distance from the center of a circle to any point on the circle.</p>
+<p><strong data-start="1346" data-end="1355">Range</strong>: The set of all possible y-values that a graph or relation can have.</p>
+<p><strong data-start="1427" data-end="1444">Standard Form</strong>: For circles, the equation \((x-h)^2+(y-k)^2=r^2\), where \((h,k)\) is the center and \(r\) is the radius.</p>
+<p><strong data-start="1563" data-end="1578">Translation</strong>: A transformation that slides a shape from one location to another without changing its size or orientation.</p>
+<p><strong data-start="1690" data-end="1706">x-coordinate</strong>: The first value in an ordered pair, showing horizontal position relative to the origin.</p>
+<p><strong data-start="1798" data-end="1814">y-coordinate</strong>: The second value in an ordered pair, showing vertical position relative to the origin.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore how to interpret real-world situations that can be modeled and graphed using equations of circles. You’ll learn how to take practical scenarios—like coverage zones, circular boundaries, or round objects—and represent them with a circle's equation. We'll practice writing equations for circles, graphing them in the coordinate plane, and using those graphs to solve problems involving distance, containment, and boundaries. Understanding how to analyze and apply the features of a circle in context will help you connect geometric concepts to real-world applications.</p>
+<h4 data-start="2592" data-end="2661"><span style="color: #843fa1;"><strong data-start="2596" data-end="2661"><br>Modeling Real-World Circles with Equations and Graphs</strong></span></h4>
+<p class="" data-start="2663" data-end="2877">To model a real-world circle, you need the center and the radius. These can be measured or inferred based on a description.</p>
+<p class="" data-start="2663" data-end="2877">Once you know these values, you can write the equation of the circle in <strong data-start="2859" data-end="2876">standard form.</strong></p>
+<p class="" data-start="2663" data-end="2877">\((x-h)^2+(y-k)^2=r^2\)</p>
+<h4 data-start="2663" data-end="2877"><span style="color: #e67e23;"><br><br>Example 1</span></h4>
+<p>A circular fountain is located in a park with its center at the point \((3,2)\) on a coordinate grid (each unit represents 1 meter). The fountain has a radius of 5 meters.</p>
+<p>Write the equation of the fountain's boundary and graph it.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>Use the standard form of the equation \((x-h)^2+(y-k)^2=r^2\).</li>
+<li>We know that \(h=3\), \(k=2\), and \(r=5\) and we can substitute these into the equation.</li>
+<li>\((x-3)^2+(y-2)^2=25\)</li>
+<li>This equation models the boundary of the fountain.</li>
+<li>Now, we can graph a model of the fountain on a grid.</li>
+<li>We plot the center. Then we find a point 5 units left, right, up, or down from the center. Finally, use the circle tool to draw a circle from the center to the point 5 units away.</li>
+<li><img id="669981" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M11L05IMGCircleEx1.png" alt="MAT10M11L05IMGCircleEx1.png" width="358" height="360" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/669981" data-api-returntype="File" loading="lazy"></li>
+</ul>
+<p><span style="color: #e03e2d;"><strong data-start="3585" data-end="3603">Interpretation</strong>:</span></p>
+<p>This graph represents the exact location and size of the fountain. Any point on the circle lies on the fountain's edge.</p>
+<h4><span style="color: #e67e23;"><br><br>Example 2</span></h4>
+<p>A drone is set to hover above a fixed point \((-5,3)\) and is programmed not to fly beyond a 10-meter radius.</p>
+<p>Write the equation that models the drone's maximum flying boundary.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p>Center of \((-5,3)\) and radius 10.</p>
+<p>\((x+5)^2+(y-3)^2=100\)</p>
+<p>This equation represents the outer boundary of the drone's flying zone.</p>
+<h4 data-start="4128" data-end="4194"><span style="color: #843fa1;"><strong data-start="4132" data-end="4194"><br><br>Solving Real-World Problems Using Circle Equations</strong></span></h4>
+<p class="" data-start="4196" data-end="4415">To solve real-world problems involving <strong data-start="4235" data-end="4250">containment</strong>, <strong data-start="4252" data-end="4264">distance</strong>, or <strong data-start="4269" data-end="4292">boundary violations</strong>, we use the circle’s equation. Using the equation and the point \((x,y)\), if:</p>
+<ul data-start="4416" data-end="4543">
+<li class="" data-start="4416" data-end="4458">
+<p class="" data-start="4418" data-end="4458">\((x-h)^2+(y-k)^2&lt;r^2\) → inside the circle</p>
+</li>
+<li class="" data-start="4459" data-end="4496">
+<p class="" data-start="4461" data-end="4496">\((x-h)^2+(y-k)^2=r^2\) → on the circle</p>
+</li>
+<li class="" data-start="4497" data-end="4543">
+<p class="" data-start="4499" data-end="4543">\((x-h)^2+(y-k)^2&gt;r^2\) → outside the circle</p>
+</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 3</span></h4>
+<p>A cell tower provides signal coverage in a circular area with center at \((4,5)\) and radius 6 km.</p>
+<p>A user is located at the point \((9,5)\) on the grid.</p>
+<p>Is the user inside the coverage zone, on the edge, or outside it?</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Let's write the equation that represents the cell tower's coverage area.</li>
+<li>The center is \((4,5)\) and the radius is 6.</li>
+<li>\((x-4)^2+(y-5)^2=36\)</li>
+<li>Now, we can substitute the point the person is standing at to determine if it is less than, equal to, or greater than the radius.</li>
+<li>\((9,5)\) into \((x-4)^2+(y-5)^2=36\)</li>
+<li>\((9-4)^2+(5-5)^2 \implies (5)^2+(0)^2 \implies 25\)</li>
+<li>Since \(25&lt;36\), the point the person is standing at is inside the coverage area.</li>
+</ul>
+<h4>Example 4</h4>
+<p>A circular trampoline has its center at \((2,-1)\) and radius 4 ft.</p>
+<p>A circular safety fence is being built around it, centered at the same point but reaching a point \((2,5)\).</p>
+<p>Will the fence fully enclose the trampoline?</p>
+<p>Solution:</p>
+<p>For this problem, we will first write the equation representing the outer boundary representing the edge of the trampoline.</p>
+<p>Center is \((2,-1)\) and radius \(r=4\).</p>
+<p>\((x-2)^2+(y+1)^2=16\)</p>
+<p>Now we can substitute in the point representing the outer point of the fence. We want this to be greater than the trampoline, so it will be fully inside the fence.</p>
+<p>\((2-2)^2+(5+1)^2 \implies (0)^2+(6)^2 \implies 36\).</p>
+<p>Since 36&gt;16, the point will be outside the outer edge of the trampoline. The radius of the trampoline is 4, and the radius of the fence is 6. Therefore, the fence will fully enclose the trampoline with a 2-ft buffer.</p>
+<h4 data-start="5607" data-end="5627"><strong data-start="5611" data-end="5625"><br><br>Conclusion</strong></h4>
+<p class="" data-start="5628" data-end="6194">Using equations of circles allows us to model and solve a wide variety of real-world problems—from setting boundaries to determining whether points fall within certain zones. By identifying the center and radius, we can write equations, graph circles on the coordinate plane, and apply the distance formula to interpret containment and positioning. Whether you're planning safety zones, modeling radar range, or tracking circular motion, understanding how circles behave algebraically and graphically helps you connect geometry to meaningful, real-life applications.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p class="" data-start="970" data-end="1057">1. How can we use the equation of a circle to model real-world circular objects or motion?</p>
+<p class="" data-start="970" data-end="1057"><span style="font-size: 1rem;">2. What do the center and radius represent in a real-world context?</span></p>
+<p class="" data-start="970" data-end="1057"><span style="font-size: 1rem;">3. How does graphing a circle help us solve or interpret a problem?</span></p>
+<p class="" data-start="970" data-end="1057"><span style="font-size: 1rem;">4. What mathematical tools help us determine if a point lies inside, on, or outside a circle?</span></p>
+<p class="" data-start="970" data-end="1057"><span style="font-size: 1rem;">5. How can we use geometry and algebra together to solve problems involving circles in real-world contexts?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; GEOMETRY &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">11.05 &middot; Solving Problems with Circles</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

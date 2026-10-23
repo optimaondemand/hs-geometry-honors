@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 7.06b Constructing Inscribed Polygons (Honors Only)</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">GEOMETRY</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 7</div>
+        <div style="font-size: 13px; color: #666;">Circles</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">7.06b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Circles</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">7.06b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Constructing Inscribed Polygons (Honors Only)</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p data-start="24" data-end="92"><strong data-start="24" data-end="31">Arc</strong>: A portion of a circle’s circumference between two points.</p>
+<p data-start="94" data-end="191"><strong data-start="94" data-end="111">Central Angle</strong>: An angle whose vertex is the center of the circle and whose sides are radii.</p>
+<p data-start="193" data-end="250"><strong data-start="193" data-end="202">Chord</strong>: A segment whose endpoints lie on the circle.</p>
+<p data-start="252" data-end="357"><strong data-start="252" data-end="262">Circle</strong>: The set of all points in a plane that are equidistant from a given point called the center.</p>
+<p data-start="359" data-end="411"><strong data-start="359" data-end="370">Compass</strong>: A tool used to draw circles and arcs.</p>
+<p data-start="413" data-end="492"><strong data-start="413" data-end="437">Cyclic Quadrilateral</strong>: A quadrilateral whose vertices all lie on a circle.</p>
+<p data-start="494" data-end="588"><strong data-start="494" data-end="506">Diameter</strong>: A chord that passes through the center of the circle and is the longest chord.</p>
+<p data-start="590" data-end="625"><strong data-start="590" data-end="601">Hexagon</strong>: A six-sided polygon.</p>
+<p data-start="627" data-end="716"><strong data-start="627" data-end="646">Inscribed Angle</strong>: An angle whose vertex is on the circle and whose sides are chords.</p>
+<p data-start="718" data-end="792"><strong data-start="718" data-end="739">Inscribed Hexagon</strong>: A hexagon where all six vertices lie on a circle.</p>
+<p data-start="794" data-end="871"><strong data-start="794" data-end="815">Inscribed Polygon</strong>: A polygon where all of its vertices lie on a circle.</p>
+<p data-start="873" data-end="960"><strong data-start="873" data-end="900">Inscribed Quadrilateral</strong>: A quadrilateral whose four vertices all lie on a circle.</p>
+<p data-start="962" data-end="1040"><strong data-start="962" data-end="984">Inscribed Triangle</strong>: A triangle where all three vertices lie on a circle.</p>
+<p data-start="1042" data-end="1129"><strong data-start="1042" data-end="1061">Intercepted Arc</strong>: The arc between two points where an angle intersects the circle.</p>
+<p data-start="1131" data-end="1233"><strong data-start="1131" data-end="1157">Perpendicular Bisector</strong>: A line that divides a segment into two equal parts at a 90-degree angle.</p>
+<p data-start="1235" data-end="1314"><strong data-start="1235" data-end="1245">Radius</strong>: A segment from the center of a circle to any point on the circle.</p>
+<p data-start="1316" data-end="1400"><strong data-start="1316" data-end="1332">Straightedge</strong>: A tool used to draw straight lines without measurement markings.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p data-start="109" data-end="547">In today’s lesson, we will explore <strong data-start="144" data-end="174">inscribed regular polygons</strong>, specifically the <strong data-start="193" data-end="289">equilateral triangle (regular triangle), square (regular quadrilateral), and regular hexagon</strong>. A <strong data-start="293" data-end="312">regular polygon</strong> is a polygon with <strong data-start="331" data-end="361">all sides and angles equal</strong>. When a <strong data-start="370" data-end="389">regular polygon</strong> is <strong data-start="393" data-end="418">inscribed in a circle</strong>, all of its <strong data-start="431" data-end="477">vertices lie on the circle’s circumference</strong>, and the polygon maintains symmetry about the center of the circle.</p>
+<p data-start="549" data-end="696">We will first define the properties and relationships of <strong data-start="606" data-end="636">inscribed regular polygons</strong> and then learn the step-by-step process for constructing:</p>
+<ol data-start="697" data-end="806">
+<li data-start="697" data-end="739">An <strong data-start="703" data-end="737">inscribed equilateral triangle</strong></li>
+<li data-start="740" data-end="768">An <strong data-start="746" data-end="766">inscribed square</strong></li>
+<li data-start="769" data-end="806">An <strong data-start="775" data-end="804">inscribed regular hexagon</strong></li>
+</ol>
+<p data-start="808" data-end="973">By the end of this lesson, you will understand how to construct these shapes using a <strong data-start="893" data-end="921">compass and straightedge</strong> and how they relate to the properties of circles.</p>
+<h4 data-start="2132" data-end="2189"><strong data-start="2136" data-end="2187">&nbsp;</strong></h4>
+<h4 data-start="980" data-end="1046"><span style="color: #843fa1;"><strong data-start="984" data-end="1044">Definitions and Properties of Inscribed Regular Polygons</strong></span></h4>
+<h4 data-start="1048" data-end="1084"><span style="color: #3598db;">Inscribed Regular Polygon</span></h4>
+<p data-start="1085" data-end="1338">An <strong data-start="1088" data-end="1117">inscribed regular polygon</strong> is a <strong data-start="1123" data-end="1142">regular polygon</strong> where all <strong data-start="1153" data-end="1183">vertices lie on the circle</strong>, and all <strong data-start="1193" data-end="1222">sides are equal in length</strong>. The <strong data-start="1228" data-end="1252">center of the circle</strong> is also the <strong data-start="1265" data-end="1290">center of the polygon</strong>, making the polygon symmetric about the center.</p>
+<p data-start="1340" data-end="1440">Each inscribed regular polygon has special properties that relate its angles and arcs to the circle.</p>
+<h4 data-start="1442" data-end="1500"><span style="color: #3598db;"><strong data-start="1447" data-end="1500"><br>Inscribed Equilateral Triangle (Regular Triangle)</strong></span></h4>
+<ul data-start="1501" data-end="1868">
+<li data-start="1501" data-end="1623">An <strong data-start="1506" data-end="1530">equilateral triangle</strong> inscribed in a circle has all <strong data-start="1561" data-end="1582">three sides equal</strong> and all <strong data-start="1591" data-end="1620">three angles equal to 60°</strong>.</li>
+<li data-start="1624" data-end="1733">Each <strong data-start="1631" data-end="1648">central angle</strong> (formed by radii connecting consecutive vertices to the center) measures <strong data-start="1722" data-end="1730">120°</strong>.</li>
+<li data-start="1734" data-end="1868">The <strong data-start="1740" data-end="1767">perpendicular bisectors</strong> of the triangle’s sides intersect at the <strong data-start="1809" data-end="1825">circumcenter</strong>, which is also the center of the circle.</li>
+</ul>
+<p><img id="592874" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M07L06bIMGInscribedTriangle.png" alt="MAT10M07L06bIMGInscribedTriangle.png" width="320" height="323" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/592874" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="1870" data-end="1919"><span style="color: #3598db;"><strong data-start="1875" data-end="1919">Inscribed Square (Regular Quadrilateral)</strong></span></h4>
+<ul data-start="1920" data-end="2232">
+<li data-start="1920" data-end="2021">A <strong data-start="1924" data-end="1934">square</strong> inscribed in a circle has <strong data-start="1961" data-end="1981">four equal sides</strong> and <strong data-start="1986" data-end="2018">four right angles (90° each)</strong>.</li>
+<li data-start="2022" data-end="2130">Each <strong data-start="2029" data-end="2046">central angle</strong> (formed by radii connecting consecutive vertices to the center) measures <strong data-start="2120" data-end="2127">90°</strong>.</li>
+<li data-start="2131" data-end="2232">The <strong data-start="2137" data-end="2164">diagonals of the square</strong> are <strong data-start="2169" data-end="2182">diameters</strong> of the circle and <strong data-start="2201" data-end="2229">bisect each other at 90°</strong>.</li>
+</ul>
+<p><img id="592881" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M07L06bIMGInscribedSquare.png" alt="MAT10M07L06bIMGInscribedSquare.png" width="323" height="334" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/592881" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="2234" data-end="2268"><span style="color: #3598db;"><strong data-start="2239" data-end="2268">Inscribed Regular Hexagon</strong></span></h4>
+<ul data-start="2269" data-end="2630">
+<li data-start="2269" data-end="2396">A <strong data-start="2273" data-end="2292">regular hexagon</strong> inscribed in a circle consists of <strong data-start="2327" data-end="2346">six equal sides</strong> and <strong data-start="2351" data-end="2393">six equal angles (each measuring 120°)</strong>.</li>
+<li data-start="2397" data-end="2505">Each <strong data-start="2404" data-end="2421">central angle</strong> (formed by radii connecting consecutive vertices to the center) measures <strong data-start="2495" data-end="2502">60°</strong>.</li>
+<li data-start="2506" data-end="2630">The <strong data-start="2512" data-end="2564">hexagon is composed of six equilateral triangles</strong>, each with a side length equal to the <strong data-start="2603" data-end="2613">radius</strong> of the circle.</li>
+</ul>
+<p><img id="592880" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M07L06bIMGInscribedHexagon.png" alt="MAT10M07L06bIMGInscribedHexagon.png" width="309" height="337" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/592880" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="2840" data-end="2915"><span style="color: #843fa1;"><strong data-start="2844" data-end="2913"><br><br>Constructing an Inscribed Equilateral Triangle (Regular Triangle)</strong></span></h4>
+<ol data-start="2917" data-end="3667">
+<li data-start="2917" data-end="3018">
+<p data-start="2920" data-end="2939"><strong data-start="2920" data-end="2937">Draw a Circle</strong></p>
+<ul data-start="2943" data-end="3018">
+<li data-start="2943" data-end="3018">Use a <strong data-start="2951" data-end="2962">compass</strong> to draw a <strong data-start="2973" data-end="2983">circle</strong> with a chosen center and radius.</li>
+</ul>
+</li>
+<li data-start="3133" data-end="3490">
+<p data-start="3136" data-end="3184"><strong data-start="3136" data-end="3182">Use the Compass to Find the Other Vertices</strong></p>
+<ul data-start="3188" data-end="3490">
+<li data-start="3188" data-end="3253">Open the compass to width of the radius using the center and the given point on the circle.
+<ul data-start="3188" data-end="3490">
+<li data-start="3188" data-end="3253">This given point on the circle will be the first vertex of the triangle.</li>
+</ul>
+</li>
+<li data-start="3188" data-end="3253">Keep the <strong data-start="3199" data-end="3236">compass width equal to the radius</strong> of the circle.</li>
+<li data-start="3257" data-end="3333">Place the compass at the first vertex and <strong data-start="3301" data-end="3330">mark an arc on the circle</strong>.</li>
+<li data-start="3337" data-end="3400">Move the compass to the new point and <strong data-start="3377" data-end="3397">mark another arc</strong>.</li>
+<li data-start="3404" data-end="3490">Repeat this step until you have 6 arcs on the circl.</li>
+<li data-start="3404" data-end="3490"><strong data-start="3438" data-end="3469">Starting with the first vertex that was given, use three equally spaced points</strong> around the circle.
+<ul data-start="3188" data-end="3490">
+<li data-start="3404" data-end="3490">This will be every other arc mark on the circle.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-start="3492" data-end="3667">
+<p data-start="3495" data-end="3521"><strong data-start="3495" data-end="3519">Connect the Vertices</strong></p>
+<ul data-start="3525" data-end="3667">
+<li data-start="3525" data-end="3667">Use a <strong data-start="3533" data-end="3549">straightedge</strong> to draw <strong data-start="3558" data-end="3575">line segments</strong> connecting the three points, forming an <strong data-start="3616" data-end="3640">equilateral triangle</strong> inscribed in the circle.</li>
+</ul>
+</li>
+</ol>
+<p data-start="2132" data-end="2189"><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bVIDInscribedTriangle" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bVIDInscribedTriangle.webm">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="2132" data-end="2189"><strong>Video of Construction Using GeoGebra</strong></h4>
+<p><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bVIDConstructRegTri" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bVIDConstructRegTri.mp4">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="3674" data-end="3740"><span style="color: #843fa1;"><strong data-start="3678" data-end="3738"><br><br>Constructing an Inscribed Square (Regular Quadrilateral)</strong></span></h4>
+<ol data-start="3742" data-end="4518">
+<li data-start="3742" data-end="3843">
+<p data-start="3745" data-end="3764"><strong data-start="3745" data-end="3762">Draw a Circle</strong></p>
+<ul data-start="3768" data-end="3843">
+<li data-start="3768" data-end="3843">Use a <strong data-start="3776" data-end="3787">compass</strong> to draw a <strong data-start="3798" data-end="3808">circle</strong> with a chosen center and radius.</li>
+</ul>
+</li>
+<li data-start="3845" data-end="4095">
+<p data-start="3848" data-end="3871"><strong data-start="3848" data-end="3869">Draw the Diameter</strong></p>
+<ul data-start="3875" data-end="4095">
+<li data-start="3875" data-end="3992">Use a <strong data-start="3883" data-end="3899">straightedge</strong> to draw a <strong data-start="3910" data-end="3922">diameter</strong>, which is a straight line passing through the center of the circle.</li>
+<li data-start="3996" data-end="4095">This creates <strong data-start="4011" data-end="4034">two opposite points</strong> on the circle that will be <strong data-start="4062" data-end="4078">two vertices</strong> of the square.</li>
+</ul>
+</li>
+<li data-start="4097" data-end="4357">
+<p data-start="4100" data-end="4137"><strong data-start="4100" data-end="4135">Draw the Perpendicular Diameter</strong></p>
+<ul data-start="4141" data-end="4357">
+<li data-start="4141" data-end="4238">Using a <strong data-start="4151" data-end="4179">compass and straightedge</strong>, construct a <strong data-start="4193" data-end="4219">perpendicular bisector</strong> of the diameter.</li>
+<li data-start="4242" data-end="4357">This will create <strong data-start="4261" data-end="4280">two more points</strong> on the circle, which will be the <strong data-start="4314" data-end="4340">remaining two vertices</strong> of the square.</li>
+</ul>
+</li>
+<li data-start="4359" data-end="4518">
+<p data-start="4362" data-end="4391"><strong data-start="4362" data-end="4389">Connect the Four Points</strong></p>
+<ul data-start="4395" data-end="4518">
+<li data-start="4395" data-end="4518">Use a <strong data-start="4403" data-end="4419">straightedge</strong> to draw <strong data-start="4428" data-end="4445">line segments</strong> between the four points, forming a <strong data-start="4481" data-end="4515">square inscribed in the circle</strong>.</li>
+</ul>
+</li>
+</ol>
+<p><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bVIDInscribedSquare" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bVIDInscribedSquare.webm">Your browser cannot play this video.</video></p>
+<h4 data-start="2132" data-end="2189"><strong>Video of Construction Using GeoGebra</strong></h4>
+<p><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bConstructRegQuad" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bConstructRegQuad.mp4">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="4525" data-end="4576"><span style="color: #843fa1;"><strong data-start="4529" data-end="4574"><br><br>Constructing an Inscribed Regular Hexagon</strong></span></h4>
+<ol data-start="4578" data-end="5340">
+<li data-start="4578" data-end="4679">
+<p data-start="4581" data-end="4600"><strong data-start="4581" data-end="4598">Draw a Circle</strong></p>
+<ul data-start="4604" data-end="4679">
+<li data-start="4604" data-end="4679">Use a <strong data-start="4612" data-end="4623">compass</strong> to draw a <strong data-start="4634" data-end="4644">circle</strong> with a chosen center and radius.</li>
+</ul>
+</li>
+<li data-start="4681" data-end="4791">
+<p data-start="4684" data-end="4711"><strong data-start="4684" data-end="4709">Mark the First Vertex</strong></p>
+<ul data-start="4715" data-end="4791">
+<li data-start="4715" data-end="4791">Identify the given <strong data-start="4726" data-end="4749">point on the circle</strong> as the <strong data-start="4757" data-end="4773">first vertex</strong> of the hexagon.</li>
+</ul>
+</li>
+<li data-start="4793" data-end="5162">
+<p data-start="4796" data-end="4849"><strong data-start="4796" data-end="4847">Use the Compass to Find the Other Five Vertices</strong></p>
+<ul data-start="4853" data-end="5162">
+<li>Open the compass to width of the radius using the center and the given point on the circle.
+<ul data-start="3188" data-end="3490">
+<li data-start="3188" data-end="3253">This given point on the circle will be the first vertex of the hexagon.</li>
+</ul>
+</li>
+<li data-start="4853" data-end="4918">Keep the <strong data-start="4864" data-end="4901">compass width equal to the radius</strong> of the circle.</li>
+<li data-start="4922" data-end="5002">Place the <strong data-start="4934" data-end="4965">compass at the first vertex</strong> and <strong data-start="4970" data-end="4999">mark an arc on the circle</strong>.</li>
+<li data-start="5006" data-end="5069">Move the compass to the new point and <strong data-start="5046" data-end="5066">mark another arc</strong>.</li>
+<li data-start="5073" data-end="5162">Continue this process until you have <strong data-start="5112" data-end="5141">six equally spaced points</strong> around the circle.</li>
+</ul>
+</li>
+<li data-start="5164" data-end="5340">
+<p data-start="5167" data-end="5193"><strong data-start="5167" data-end="5191">Connect the Vertices</strong></p>
+<ul data-start="5197" data-end="5340">
+<li data-start="5197" data-end="5340">Use a <strong data-start="5205" data-end="5221">straightedge</strong> to draw <strong data-start="5230" data-end="5247">line segments</strong> connecting the six points in order, forming a <strong data-start="5294" data-end="5337">regular hexagon inscribed in the circle</strong>.</li>
+</ul>
+</li>
+</ol>
+<p><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bVIDInscribedHexagon" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bVIDInscribedHexagon.webm">Your browser cannot play this video.</video></p>
+<h4 data-start="2132" data-end="2189"><strong>Video of Construction Using GeoGebra</strong></h4>
+<p><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L06bVIDConstructRegHex" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L06bVIDConstructRegHex.mp4">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="5347" data-end="5367"><strong data-start="5351" data-end="5365"><br><br>Conclusion</strong></h4>
+<p data-start="5368" data-end="5721">Understanding <strong data-start="5382" data-end="5412">inscribed regular polygons</strong>, such as the <strong data-start="5426" data-end="5479">equilateral triangle, square, and regular hexagon</strong>, helps us see how polygons interact with circles. These <strong data-start="5536" data-end="5566">polygons maintain symmetry</strong>, and their properties, such as <strong data-start="5598" data-end="5663">central angles, intercepted arcs, and perpendicular bisectors</strong>, provide a geometric foundation for their construction.</p>
+<p data-start="5723" data-end="6117" data-is-last-node="">By using a <strong data-start="5734" data-end="5762">compass and straightedge</strong>, we can accurately construct these <strong data-start="5798" data-end="5828">inscribed regular polygons</strong>, ensuring equal <strong data-start="5845" data-end="5872">side lengths and angles</strong>. Mastering these constructions strengthens <strong data-start="5916" data-end="5952">geometric problem-solving skills</strong> and has applications in <strong data-start="5977" data-end="6018">architecture, engineering, and design</strong>. Keep practicing these constructions to build confidence in <strong data-start="6079" data-end="6116">geometric reasoning and precision</strong>!</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What is an <strong data-start="626" data-end="647">inscribed polygon</strong>, and how does it relate to a circle?</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">2. What steps are required to construct an </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="730" data-end="780">inscribed triangle, quadrilateral, and hexagon</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> using a </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="789" data-end="817">compass and straightedge</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. How can the properties of </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="850" data-end="872">inscribed polygons</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> be used to solve problems?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">4. How do the </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="916" data-end="939">angle relationships</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> in an </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="946" data-end="996">inscribed triangle, quadrilateral, and hexagon</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> differ from one another?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">5. How can the construction of </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="1055" data-end="1077">inscribed polygons</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> be applied in real-world scenarios, such as architecture and design?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; GEOMETRY &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">7.06b &middot; Constructing Inscribed Polygons (Honors Only)</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 7.07 Constructing Inscribed and Circumscribed Circles of Triangles</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">GEOMETRY</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 7</div>
+        <div style="font-size: 13px; color: #666;">Circles</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">7.07</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Circles</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">7.07</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Constructing Inscribed and Circumscribed Circles of Triangles</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p data-start="24" data-end="107"><strong data-start="24" data-end="42">Angle Bisector</strong>: A line or segment that divides an angle into two equal parts.</p>
+<p data-start="109" data-end="259"><strong data-start="109" data-end="125">Circumcenter</strong>: The point where the <strong data-start="147" data-end="174">perpendicular bisectors</strong> of a triangle’s sides intersect; it is the center of the <strong data-start="232" data-end="256">circumscribed circle</strong>.</p>
+<p data-start="261" data-end="392"><strong data-start="261" data-end="285">Circumscribed Circle</strong>: A circle that passes through all three vertices of a triangle, with its center at the <strong data-start="373" data-end="389">circumcenter</strong>.</p>
+<p data-start="394" data-end="446"><strong data-start="394" data-end="405">Compass</strong>: A tool used to draw circles and arcs.</p>
+<p data-start="448" data-end="525"><strong data-start="448" data-end="468">Concurrent Lines</strong>: Three or more lines that intersect at a single point.</p>
+<p data-start="527" data-end="653"><strong data-start="527" data-end="539">Incenter</strong>: The point where the <strong data-start="561" data-end="580">angle bisectors</strong> of a triangle intersect; it is the center of the <strong data-start="630" data-end="650">inscribed circle</strong>.</p>
+<p data-start="655" data-end="805"><strong data-start="655" data-end="675">Inscribed Circle</strong>: A circle that fits inside a triangle, touching all three sides at exactly one point each, with its center at the <strong data-start="790" data-end="802">incenter</strong>.</p>
+<p data-start="807" data-end="877"><strong data-start="807" data-end="819">Midpoint</strong>: The point that divides a segment into two equal parts.</p>
+<p data-start="879" data-end="956"><strong data-start="879" data-end="894">Orthocenter</strong>: The point where the <strong data-start="916" data-end="929">altitudes</strong> of a triangle intersect.</p>
+<p data-start="958" data-end="1064"><strong data-start="958" data-end="984">Perpendicular Bisector</strong>: A line that divides a segment into two equal parts at a <strong data-start="1042" data-end="1061">90-degree angle</strong>.</p>
+<p data-start="1066" data-end="1145"><strong data-start="1066" data-end="1076">Radius</strong>: A segment from the center of a circle to any point on the circle.</p>
+<p data-start="1147" data-end="1231"><strong data-start="1147" data-end="1163">Straightedge</strong>: A tool used to draw straight lines without measurement markings.</p>
+<p data-start="1233" data-end="1310"><strong data-start="1233" data-end="1245">Triangle</strong>: A three-sided polygon with three angles that sum to <strong data-start="1299" data-end="1307">180°</strong>.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p data-start="1428" data-end="1744">In today’s lesson, we will explore the difference between a <strong data-start="1488" data-end="1512">circumscribed circle</strong> and an <strong data-start="1520" data-end="1540">inscribed circle</strong> in a triangle. A <strong data-start="1558" data-end="1582">circumscribed circle</strong> is a circle that passes through all three <strong data-start="1625" data-end="1637">vertices</strong> of a triangle, while an <strong data-start="1662" data-end="1682">inscribed circle</strong> is a circle that touches all three <strong data-start="1718" data-end="1727">sides</strong> of a triangle.</p>
+<p data-start="1746" data-end="2207">We will first define and understand the properties of each type of circle. Then, we will learn the <strong data-start="1845" data-end="1874">step-by-step construction</strong> of a <strong data-start="1880" data-end="1904">circumscribed circle</strong> using the <strong data-start="1915" data-end="1956">perpendicular bisectors of a triangle</strong>. Finally, we will construct an <strong data-start="1988" data-end="2008">inscribed circle</strong> using the <strong data-start="2019" data-end="2052">angle bisectors of a triangle</strong>. By the end of this lesson, you will be able to construct both circles using a <strong data-start="2132" data-end="2160">compass and straightedge</strong> and understand their geometric significance.</p>
+<h4 data-start="2214" data-end="2273"><span style="color: #843fa1;"><strong data-start="2218" data-end="2271"><br><br>Understanding Circumscribed and Inscribed Circles</strong></span></h4>
+<h4 data-start="2275" data-end="2306"><span style="color: #3598db;"><strong data-start="2280" data-end="2304">Circumscribed Circle</strong></span></h4>
+<ul data-start="2307" data-end="2737">
+<li data-start="2307" data-end="2407">A <strong data-start="2311" data-end="2335">circumscribed circle</strong> is a circle that passes through all three <strong data-start="2378" data-end="2390">vertices</strong> of a triangle.</li>
+<li data-start="2408" data-end="2581">The <strong data-start="2414" data-end="2424">center</strong> of the circumscribed circle is the <strong data-start="2460" data-end="2476">circumcenter</strong>, which is the point where the <strong data-start="2507" data-end="2534">perpendicular bisectors</strong> of the triangle’s three sides <strong data-start="2565" data-end="2578">intersect</strong>.</li>
+<li data-start="2582" data-end="2737">The <strong data-start="2588" data-end="2604">circumcenter</strong> is <strong data-start="2608" data-end="2647">equidistant from all three vertices</strong>, meaning the <strong data-start="2661" data-end="2671">radius</strong> of the circle is the same from the circumcenter to each vertex.</li>
+</ul>
+<p><img id="593578" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M07L07IMGCircumscribedCircle.png" alt="MAT10M07L07IMGCircumscribedCircle.png" width="347" height="354" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/593578" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="2739" data-end="2766"><span style="color: #3598db;"><strong data-start="2744" data-end="2764">Inscribed Circle</strong></span></h4>
+<ul data-start="2767" data-end="3203">
+<li data-start="2767" data-end="2897">An <strong data-start="2772" data-end="2792">inscribed circle</strong> is a circle that fits <strong data-start="2815" data-end="2825">inside</strong> a triangle and <strong data-start="2841" data-end="2868">touches all three sides</strong> at exactly one point each.</li>
+<li data-start="2898" data-end="3041">The <strong data-start="2904" data-end="2914">center</strong> of the inscribed circle is the <strong data-start="2946" data-end="2958">incenter</strong>, which is the point where the <strong data-start="2989" data-end="3008">angle bisectors</strong> of the triangle <strong data-start="3025" data-end="3038">intersect</strong>.</li>
+<li data-start="3042" data-end="3203">The <strong data-start="3048" data-end="3060">incenter</strong> is <strong data-start="3064" data-end="3100">equidistant from all three sides</strong>, meaning the <strong data-start="3114" data-end="3124">radius</strong> of the inscribed circle is the same distance from the incenter to each side.</li>
+</ul>
+<p><img id="593579" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M07L07IMGInscribedCircle.png" alt="MAT10M07L07IMGInscribedCircle.png" width="543" height="269" data-api-endpoint="https://optimadomi.instructure.com/api/v1/courses/968/files/593579" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="3210" data-end="3255"><span style="color: #843fa1;"><strong data-start="3214" data-end="3253"><br><br><br>Constructing a Circumscribed Circle</strong></span></h4>
+<ol data-start="3257" data-end="4314">
+<li data-start="3257" data-end="3374">
+<p data-start="3260" data-end="3281"><strong data-start="3260" data-end="3279">Use the Given Triangle</strong></p>
+<ul data-start="3285" data-end="3374">
+<li data-start="3285" data-end="3374">Use the given&nbsp;<strong data-start="3322" data-end="3334">triangle</strong>.</li>
+</ul>
+</li>
+<li data-start="3376" data-end="3804">
+<p data-start="3379" data-end="3417"><strong data-start="3379" data-end="3415">Find the Perpendicular Bisectors</strong></p>
+<ul data-start="3421" data-end="3804">
+<li data-start="3421" data-end="3518">Construct the <strong data-start="3533" data-end="3559">perpendicular bisector</strong> for each side.
+<ul data-start="3421" data-end="3804">
+<li data-start="3421" data-end="3518">Begin by placing the <strong data-start="3589" data-end="3629">compass at one of the vertices </strong>and opening the compass to a width of a little more than half the side length.</li>
+<li data-start="3421" data-end="3518">Draw half an arc starting above and going below the segment.</li>
+<li data-start="3421" data-end="3518">Move the compass to the vertex representing the other end point of that same side.</li>
+<li data-start="3421" data-end="3518">Keeping the compass width the same, draw an arc starting above and going below the side. Be sure the two arcs intersect above and below that side.</li>
+</ul>
+</li>
+<li data-start="3685" data-end="3804">Use a <strong data-start="3693" data-end="3709">straightedge</strong> to draw a line through the intersection of the arcs, forming the <strong data-start="3775" data-end="3801">perpendicular bisector</strong>.</li>
+<li data-start="3685" data-end="3804">Repeat these steps for the other two sides of the triangle. You will have drawn 3 perpendicular bisectors.</li>
+</ul>
+</li>
+<li data-start="3806" data-end="4019">
+<p data-start="3809" data-end="3836"><strong data-start="3809" data-end="3834">Find the Circumcenter</strong></p>
+<ul data-start="3840" data-end="4019">
+<li data-start="3840" data-end="3944">The <strong data-start="3846" data-end="3879">three perpendicular bisectors</strong> will intersect at a single point—this is the <strong data-start="3925" data-end="3941">circumcenter</strong>.</li>
+<li data-start="3948" data-end="4019">The <strong data-start="3954" data-end="3970">circumcenter</strong> is the <strong data-start="3978" data-end="4016">center of the circumscribed circle</strong>. Mark this point.</li>
+</ul>
+</li>
+<li data-start="4021" data-end="4314">
+<p data-start="4024" data-end="4059"><strong data-start="4024" data-end="4057">Draw the Circumscribed Circle</strong></p>
+<ul data-start="4063" data-end="4314">
+<li data-start="4063" data-end="4180">Place the <strong data-start="4075" data-end="4106">compass at the circumcenter</strong> and adjust it so the pencil reaches one of the <strong data-start="4154" data-end="4177">triangle’s vertices</strong>.</li>
+<li data-start="4184" data-end="4249">Draw a <strong data-start="4193" data-end="4203">circle</strong> that passes through all <strong data-start="4228" data-end="4246">three vertices</strong>.</li>
+<li data-start="4253" data-end="4314">This is the <strong data-start="4267" data-end="4291">circumscribed circle</strong> around the triangle.</li>
+</ul>
+</li>
+</ol>
+<p><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L07VIDCircumscribedCircle" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L07VIDCircumscribedCircle.webm">Your browser cannot play this video.</video></p>
+<h4 data-start="2132" data-end="2189"><strong>Video of Construction Using GeoGebra</strong></h4>
+<p><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L07VIDConstructCircumCircle" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L07VIDConstructCircumCircle.mp4">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="4321" data-end="4363"><span style="color: #843fa1;"><strong data-start="4325" data-end="4361"><br><br><br>Constructing an Inscribed Circle</strong></span></h4>
+<ol data-start="4365" data-end="5515">
+<li data-start="4365" data-end="4482">
+<p data-start="4368" data-end="4389"><strong data-start="4368" data-end="4387">Use the Given Triangle</strong></p>
+<ul data-start="4393" data-end="4482">
+<li data-start="4393" data-end="4482">Use the given&nbsp;<strong data-start="4430" data-end="4442">triangle</strong> (scalene, isosceles, or equilateral).</li>
+</ul>
+</li>
+<li data-start="4484" data-end="4939">
+<p data-start="4487" data-end="4517"><strong data-start="4487" data-end="4515">Find the Angle Bisectors</strong></p>
+<ul data-start="4521" data-end="4939">
+<li data-start="4521" data-end="4939">Use a <strong data-start="4529" data-end="4540">compass</strong> to construct the <strong data-start="4558" data-end="4576">angle bisector</strong> of each interior angle:
+<ul data-start="4608" data-end="4939">
+<li data-start="4608" data-end="4699">Place the compass at a <strong data-start="4633" data-end="4643">vertex</strong> and draw an arc that crosses both sides of the angle.</li>
+<li data-start="4705" data-end="4807">Move the compass to where the arc crosses each side and draw two additional arcs that intersect inside the triangle.</li>
+<li data-start="4813" data-end="4939">Use a <strong data-start="4821" data-end="4837">straightedge</strong> to draw a line from the vertex through the intersection of the arcs—this is the <strong data-start="4918" data-end="4936">angle bisector</strong>.</li>
+</ul>
+</li>
+<li data-start="4813" data-end="4939">Repeat these steps for the remaining two angles so that there are 3 angle bisectors drawn.</li>
+</ul>
+</li>
+<li data-start="4941" data-end="5130">
+<p data-start="4944" data-end="4967"><strong data-start="4944" data-end="4965">Find the Incenter</strong></p>
+<ul data-start="4971" data-end="5130">
+<li data-start="4971" data-end="5063">The <strong data-start="4977" data-end="5002">three angle bisectors</strong> will intersect at a single point—this is the <strong data-start="5048" data-end="5060">incenter</strong>. Mark this point.</li>
+<li data-start="5067" data-end="5130">The <strong data-start="5073" data-end="5085">incenter</strong> is the <strong data-start="5093" data-end="5127">center of the inscribed circle</strong>.</li>
+</ul>
+</li>
+<li data-start="5132" data-end="5515">
+<p data-start="5135" data-end="5166"><strong data-start="5135" data-end="5164">Draw the Inscribed Circle</strong></p>
+<ul data-start="5170" data-end="5515">
+<li data-start="5170" data-end="5296">From the <strong data-start="5181" data-end="5193">incenter</strong>, draw a <strong data-start="5202" data-end="5224">perpendicular line</strong> to any <strong data-start="5232" data-end="5256">side of the triangle</strong> to find the <strong data-start="5269" data-end="5279">radius</strong> of the circle.
+<ul data-start="5170" data-end="5515">
+<li data-start="5170" data-end="5296">Place the compass at the point representing the&nbsp;<strong>incenter</strong>.</li>
+<li data-start="5170" data-end="5296">Open the compass wide enough to intersect the segment in two places.</li>
+<li data-start="5170" data-end="5296">Draw an arc that crosses the segment at two points.</li>
+<li data-start="5170" data-end="5296">Place the compass at one of the points where that arc intersects the side. Open a little more than halfway between the two intersection points.</li>
+<li data-start="5170" data-end="5296">Draw an arc above and below the side.</li>
+<li data-start="5170" data-end="5296">Move the compass to the other intersection and repeat. Make sure the arcs above and below intersect each from.</li>
+<li data-start="5170" data-end="5296">Using the straightedge, connect the two intersections above and below the side. Mark the point on the triangle's side.</li>
+</ul>
+</li>
+<li data-start="5300" data-end="5454">Place the <strong data-start="5312" data-end="5339">compass at the incenter</strong>, set it to the length of the <strong data-start="5369" data-end="5379">radius </strong>by opening it to the length of the point on the side of the triangle you just created.</li>
+<li data-start="5300" data-end="5454">Draw a <strong data-start="5392" data-end="5402">circle</strong> inside the triangle that touches all three sides.</li>
+<li data-start="5458" data-end="5515">This is the <strong data-start="5472" data-end="5492">inscribed circle</strong> within the triangle.</li>
+</ul>
+</li>
+</ol>
+<p><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L07VIDInscribedCircle" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L07VIDInscribedCircle.webm">Your browser cannot play this video.</video></p>
+<h4 data-start="2132" data-end="2189"><strong>Video of Construction Using GeoGebra</strong></h4>
+<p><strong><video controls preload="metadata" style="width:100%;max-width:640px;height:auto;" title="MAT10M07L07VIDConstructInscribCircle" src="https://optimaondemand.github.io/hs-geometry-honors-videos/uploaded-media/MAT10M07L07VIDConstructInscribCircle.mp4">Your browser cannot play this video.</video></strong></p>
+<h4 data-start="2141" data-end="2161"><strong data-start="2145" data-end="2159"><br>Conclusion</strong></h4>
+<p data-start="2162" data-end="2470" data-is-last-node="" data-is-only-node="">By following these steps, you can <strong data-start="2196" data-end="2230">construct a perpendicular line</strong> accurately using only a <strong data-start="2255" data-end="2283">compass and straightedge</strong>. This construction is fundamental in <strong data-start="2321" data-end="2369">geometry, engineering, and technical drawing</strong>, as perpendicular lines help define <strong data-start="2406" data-end="2435">right angles and symmetry</strong> in various geometric applications.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What is the difference between an <strong data-start="646" data-end="666">inscribed circle</strong> and a <strong data-start="673" data-end="697">circumscribed circle</strong> of a triangle?</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">2. How do you construct an </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="742" data-end="762">inscribed circle</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> in a triangle using a </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="785" data-end="813">compass and straightedge</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. How do you construct a </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="843" data-end="867">circumscribed circle</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> around a triangle?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">4. What role do </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="905" data-end="924">angle bisectors</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> and </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="929" data-end="956">perpendicular bisectors</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> play in constructing these circles?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">5. How are </span><strong style="color: var(--ic-brand-font-color-dark); font-size: 1rem;" data-start="1006" data-end="1045">inscribed and circumscribed circles</strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> applied in real-world geometry problems, such as architecture and engineering?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; GEOMETRY &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">7.07 &middot; Constructing Inscribed and Circumscribed Circles of Triangles</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

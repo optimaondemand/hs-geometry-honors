@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 10.06 Drawing Sequences of Transformations</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">GEOMETRY</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 10</div>
+        <div style="font-size: 13px; color: #666;">Transformations</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">10.06</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Transformations</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">10.06</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Drawing Sequences of Transformations</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="127" data-end="145">Algebraic Rule</strong>: A mathematical expression that shows how each point’s coordinates change during a transformation; written in the form \((x,y)\rightarrow (x',y')\).</p>
+<p><strong data-start="300" data-end="320">Coordinate Plane</strong>: A two-dimensional grid formed by the intersection of a horizontal axis (x-axis) and a vertical axis (y-axis).</p>
+<p><strong data-start="434" data-end="446">Dilation</strong>: A transformation that changes the size of a figure using a scale factor, while preserving shape and angle measures.</p>
+<p><strong data-start="566" data-end="575">Image</strong>: The resulting figure after a transformation has been applied to the pre-image.</p>
+<p><strong data-start="745" data-end="764">Nonrigid Motion</strong>: A transformation that changes the size of a figure but preserves shape and angle measures, such as a dilation.</p>
+<p><strong data-start="658" data-end="671">Pre-Image</strong>: The original figure before a transformation occurs.</p>
+<p><strong data-start="727" data-end="741">Reflection</strong>: A transformation where a figure is flipped over a line, producing a mirror image.</p>
+<p><strong data-start="827" data-end="843">Rigid Motion</strong>: A transformation that preserves size and shape, such as translations, reflections, and rotations.</p>
+<p><strong data-start="945" data-end="957">Rotation</strong>: A transformation where a figure is turned around a fixed point at a specific angle and direction.</p>
+<p><strong data-start="1059" data-end="1075">Scale Factor</strong>: The number by which the coordinates of a figure are multiplied to perform a dilation.</p>
+<p><strong data-start="1165" data-end="1196">Sequence of Transformations</strong>: A set of two or more transformations applied in a specific order to a figure.</p>
+<p><strong data-start="1278" data-end="1292">Similarity</strong>: A relationship between two figures that have the same shape but not necessarily the same size; angle measures are equal and side lengths are proportional.</p>
+<p><strong data-start="1451" data-end="1469">Transformation</strong>: A change in the position, size, or orientation of a figure in the coordinate plane.</p>
+<p><strong data-start="1557" data-end="1572">Translation</strong>: A transformation that slides a figure a specific distance in a specific direction.</p>
+<p><strong data-start="1659" data-end="1669">Vector</strong>: A quantity that shows both direction and magnitude; used to describe translations on the coordinate plane.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p class="" data-start="1884" data-end="2427">In today’s lesson, we will explore how to graph figures that undergo sequences of transformations in the coordinate plane. Transformations include translations, reflections, rotations, and dilations. Each transformation affects the figure in different ways: some change its location, others its orientation or size. You'll review how each type of transformation looks on the coordinate plane, what happens to the figure's coordinates, and what algebraic rule is used to describe the transformation. Then you'll learn how to graph the result of a figure that undergoes more than one transformation in a specific order.</p>
+<h4 data-start="1884" data-end="2427"><br><span style="color: #843fa1;"><strong>Transformation Review</strong></span></h4>
+<table style="border-collapse: collapse; width: 78.0537%; height: 59px;" border="1">
+<tbody>
+<tr>
+<td style="width: 20.0516%;"><strong>Translation</strong></td>
+<td style="width: 25.5594%;"><strong>Reflection</strong></td>
+<td style="width: 33.4774%;"><strong>Rotation</strong></td>
+<td style="width: 20.9116%;"><strong>Dilation</strong></td>
+</tr>
+<tr>
+<td style="width: 20.0516%;">Slides a figure horizontally and/or vertically.</td>
+<td style="width: 25.5594%;">Flips a figure over a line (like the x-axis, y-axis, or line \(y=x\)).</td>
+<td style="width: 33.4774%;">Turns a figure around a point, typically the origin.</td>
+<td style="width: 20.9116%;">Enlarges or reduces the size of a figure using a scale factor \(k\).</td>
+</tr>
+<tr>
+<td style="width: 20.0516%;">
+<p>Algebraic Rule:</p>
+<p>\((x,y)\rightarrow (x+a,y+b)\)</p>
+</td>
+<td style="width: 25.5594%;">
+<p>Algebraic Rules:</p>
+<p>Over x-axis: \((x,y)\rightarrow (x,-y)\)</p>
+<p>Over y-axis: \((x,y)\rightarrow (-x,y)\)</p>
+<p>Over line \(y=x\): \((x,y)\rightarrow (y,x)\)</p>
+</td>
+<td style="width: 33.4774%;">
+<p>Algebraic Rules:</p>
+<p>90 degrees counterclockwise (270 clockwise): \((x,y)\rightarrow (-y,x)\)</p>
+<p>180 degrees: \((x,y)\rightarrow (-x,-y)\)</p>
+<p>270 degrees counterclockwise (90 clockwise): \((x,y)\rightarrow (y,-x)\)</p>
+</td>
+<td style="width: 20.9116%;">
+<p>Algebraic Rule:</p>
+<p>\((x,y)\rightarrow (kx,ky)\)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 data-start="3936" data-end="3980"><br><br>✏️ <span style="color: #843fa1;"><strong>Graphing a Sequence of Transformations</strong></span></h4>
+<p class="" data-start="3982" data-end="4021">To graph a sequence of transformations:</p>
+<ol data-start="4022" data-end="4288">
+<li class="" data-start="4022" data-end="4092">
+<p class="" data-start="4025" data-end="4092">Apply the <strong data-start="4035" data-end="4059">first transformation</strong> to each vertex of the pre-image.</p>
+</li>
+<li class="" data-start="4093" data-end="4177">
+<p class="" data-start="4096" data-end="4177">Use the <strong data-start="4104" data-end="4129">resulting coordinates</strong> as the input for the <strong data-start="4151" data-end="4176">second transformation</strong>.</p>
+</li>
+<li class="" data-start="4178" data-end="4234">
+<p class="" data-start="4181" data-end="4234">Plot all image points after each transformation step.</p>
+</li>
+<li class="" data-start="4235" data-end="4288">
+<p class="" data-start="4238" data-end="4288">Connect the points to form the transformed figure.</p>
+</li>
+</ol>
+<h4><br><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>Triangle ABC on the graph shown is translated 4 units right and 1 unit down, then reflected over the y-axis.</p>
+<p><img id="662006" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M10L06IMGDrawEx1.png" alt="MAT10M10L06IMGDrawEx1.png" width="490" height="432" loading="lazy"></p>
+<p>Draw the transformed image triangle A'B'C'.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p class="" data-start="4444" data-end="4466"><strong data-start="4444" data-end="4464">Transformations:</strong></p>
+<ol data-start="4467" data-end="4574">
+<li class="" data-start="4467" data-end="4525">
+<p class="" data-start="4470" data-end="4525">Translate the triangle 4 units right and 1 unit down.</p>
+</li>
+<li class="" data-start="4526" data-end="4574">
+<p class="" data-start="4529" data-end="4574">Reflect the resulting figure over the y-axis.</p>
+</li>
+</ol>
+<p>\(A(-6,1)\), \(B(-3,6)\), and \(C(-2,-2)\)</p>
+<p class="" data-start="4576" data-end="4647"><strong data-start="4576" data-end="4600">Step 1 – Translation</strong><br data-start="4600" data-end="4603">Apply \((x,y)\rightarrow (x+4, y-1)\)</p>
+<ul>
+<li data-start="4576" data-end="4647">\(A(-6,1)\rightarrow A'(-6+4,1-1)=(-2,0)\)</li>
+<li data-start="4576" data-end="4647">\(B(-3,6)\rightarrow B'(-3+4,6-1)=(1,5)\)</li>
+<li data-start="4576" data-end="4647">\(C(-2,-2)\rightarrow C'(-2+4,-2-1)=(2,-3)\)</li>
+</ul>
+<p><strong data-start="4695" data-end="4730">Step 2 – Reflection over y-axis</strong><br data-start="4730" data-end="4733">Apply \((x,y)\rightarrow (-x,y)\)</p>
+<ul>
+<li>\(A'(-2,0)\rightarrow A''(2,0)\)</li>
+<li>\(B'(1,5)\rightarrow B''(-1,5)\)</li>
+<li>\(C'(2,-3)\rightarrow C''(-2,-3)\)</li>
+</ul>
+<p><strong>Graph</strong><strong>:</strong> Plot the coordinates from step 2, then use the polygon tool to connect the points and draw the final image.</p>
+<p><img id="662007" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M10L06IMGDrawEx1Ans.png" alt="MAT10M10L06IMGDrawEx1Ans.png" width="407" height="443" loading="lazy"></p>
+<h4><br><br><span style="color: #e67e23;">Example 2</span></h4>
+<p>Quadrilateral ABCD on the graph shown is dilated by a scale factor of 2, then rotated \(90^\circ\) counterclockwise about the origin.</p>
+<p><img id="662008" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M10L06IMGDrawEx2.png" alt="MAT10M10L06IMGDrawEx2.png" width="543" height="451" loading="lazy"></p>
+<p>Draw the transformed image A'B'C'D'.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p class="" data-start="4444" data-end="4466"><strong data-start="4444" data-end="4464">Transformations:</strong></p>
+<ol style="list-style-type: decimal;">
+<li data-start="5078" data-end="5139">Dilate the figure from the origin with a scale factor of 2.</li>
+<li data-start="5078" data-end="5139">Rotate the resulting figure 90° counterclockwise about the origin.</li>
+</ol>
+<p>\(A(-5,2)\), \(B(-1,6)\), \(C(2,3)\), and \(D(-2,-1)\)</p>
+<p class="" data-start="4576" data-end="4647"><strong data-start="4576" data-end="4600">Step 1 – Dilation</strong><br data-start="4600" data-end="4603">Apply \((x,y)\rightarrow (2x,2y)\)</p>
+<ul>
+<li data-start="4576" data-end="4647">\(A(-5,2)\rightarrow A'(-10,4)\)</li>
+<li data-start="4576" data-end="4647">\(B(-1,6)\rightarrow B'(-2,12)\)</li>
+<li data-start="4576" data-end="4647">\(C(2,3)\rightarrow C'(4,6)\)</li>
+<li data-start="4576" data-end="4647">\(D(-2,-1)\rightarrow D'(-4,-2)\)</li>
+</ul>
+<p><strong data-start="4695" data-end="4730">Step 2 – Rotation \(90^\circ\) Counterclockwise</strong><br data-start="4730" data-end="4733">Apply \((x,y)\rightarrow (-y,x)\)</p>
+<ul>
+<li>\(A'(-10,4)\rightarrow A''(-4,-10)\)</li>
+<li>\(B'(-2,12)\rightarrow B''(-12,-2)\)</li>
+<li>\(C'(4,6)\rightarrow C''(-6,4)\)</li>
+<li>\(D'(-4,-2)\rightarrow D''(2,-4)\)</li>
+</ul>
+<p><strong>Graph</strong><strong>:</strong> Plot the coordinates from step 2, then use the polygon tool to connect the points and draw the final image.</p>
+<p><img id="662009" src="https://optimaondemand.github.io/hs-geometry-honors/media/MAT10M10L06IMGDrawEx2Ans.png" alt="MAT10M10L06IMGDrawEx2Ans.png" width="486" height="492" loading="lazy"></p>
+<h4 data-start="5580" data-end="5595"><br><br>Conclusion</h4>
+<p class="" data-start="5597" data-end="6112">In this lesson, you reviewed the four main transformations—translations, reflections, rotations, and dilations—and learned their verbal meanings, coordinate changes, and algebraic rules. You then practiced applying two transformations in a row to a single figure, plotting each stage of the sequence. By mastering how to graph a sequence of transformations step-by-step, you can now visualize how a shape changes in size, position, and orientation—and explain the reasoning behind each transformation in a sequence.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p class="" data-start="806" data-end="879">1. How does the order of transformations affect the final image of a figure?</p>
+<p class="" data-start="806" data-end="879"><span style="font-size: 1rem;">2. What are the algebraic rules and visual patterns that help guide accurate graphing of transformations?</span></p>
+<p class="" data-start="806" data-end="879"><span style="font-size: 1rem;">3. How can I determine and draw a correct sequence of transformations on the coordinate plane?</span></p>
+<p class="" data-start="806" data-end="879"><span style="font-size: 1rem;">4. How can I tell whether the image is congruent to or similar to the pre-image?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; GEOMETRY &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">10.06 &middot; Drawing Sequences of Transformations</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>
